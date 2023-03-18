@@ -1,0 +1,44 @@
+label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+<h1>Medical Test Form</h1>
+<form action="#" method="post">
+  <fieldset>
+    <legend>Do you want a hard copy of the report?</legend>
+    <label><input type="radio" name="hard-copy" value="yes"> Yes</label>
+    <label><input type="radio" name="hard-copy" value="no"> No</label>
+  </fieldset>
+  <fieldset>
+    <legend>Select Your Comfortable Date and Time</legend>
+    <label for="date">Date</label>
+    <input type="date" id="date" name="date" required>
+    <label for="time">Time</label>
+    <input type="time" id="time" name="time" required>
+  </fieldset>
+  <input type="reset" value="Reset">
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
