@@ -1,0 +1,115 @@
+header {
+  color: white;
+  background-color: rgba(33, 31, 31, 0.685);
+  text-align: end;
+  font-size: 30px;
+  padding: 3px;
+}
+
+.navigation {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+  margin-top: 0%;
+}
+
+.menu {
+  background-color: grey;
+  margin: 0%;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.menu li:hover {
+  background-color: black;
+}
+
+.submenu {
+  position: absolute;
+  background-color: #f5f5f5;
+  padding: 0%;
+  display: none;
+  top: 45px;
+}
+
+.menu li:hover .submenu {
+  display: block;
+}
+
+.submenu li {
+  display: block;
+}
+
+.submenu li:hover {
+  background-color: gainsboro;
+}
+
+.submenu li a {
+  color: #5596ca;
+  font-size: 15px;
+}
+
+.head {
+  text-align: right;
+  font-size: 24px;
+}
+
+.footer {
+  color: white;
+  background-color: black;
+  text-align: end;
+  padding: 10px;
+} 
+
+/* For Product Shoping cart */
+
+.product {
+  width: 2500px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  border: 1px solid black;
+  transition: all 0.3s ease-in-out;
+}
+.product:hover {
+  width: 220px;
+  height: 320px;
+}
+.product-image {
+  width: 200px;
+  height: 250px;
+}
+.product-name {
+  font-size: 20px;
+}
+.product-price {
+  color: green;
+}
+.product-price-after-offer {
+  color: red;
+  text-decoration: line-through;
+}
+.add-to-cart {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.add-to-cart:hover {
+  background-color: rgb(250, 234, 230);
+  border-color: rgb(0, 255, 76);
+}
+
+/* For Offer Animation*/
+
+
+
